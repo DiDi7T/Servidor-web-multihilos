@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor Web</title>
+</head>
+
+<body>
+
+    <h1>Holi, soy un servidor web super simple, tipo años 2000</h1>
+
+    <p>Pretendo cumplir con los siguientes requisitos:</p>
+
+    <ul>
+        <li>Escucha conexiones TCP en un puerto configurable mayor a 1024 y opera de forma continua.</li>
+        <li>Es multi-hilo, creando un hilo independiente por cada solicitud HTTP recibida.</li>
+        <li>Interpreta solicitudes HTTP/1.0 utilizando el método GET.</li>
+        <li>Lee y muestra por consola la línea de solicitud y los encabezados HTTP.</li>
+        <li>Responde con una estructura HTTP válida usando CRLF.</li>
+        <li>Sirve archivos HTML e imágenes JPG y GIF con su tipo MIME correcto.</li>
+        <li>Maneja recursos inexistentes devolviendo HTTP 404.</li>
+        <li>Cierra correctamente sockets y streams sin afectar solicitudes concurrentes.</li>
+    </ul>
+
+    <h2>Imagen</h2>
+    <img src="/img.jpg" alt="Imagen JPG" width="300">
+
+    <h2>GIF muy tumblr</h2>
+    <img src="/gif.gif" alt="GIF de prueba">
+
+</body>
+
+</html>
